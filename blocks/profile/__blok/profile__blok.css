@@ -1,0 +1,20 @@
+.profile__blok {
+    width: 336px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: -215px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 879px) {
+    .profile__blok {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .profile__blok {
+        width: 240px;
+        margin-left: 0;
+    }
+}

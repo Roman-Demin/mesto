@@ -1,0 +1,21 @@
+.profile__role {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .profile__role {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 0;
+        margin-left: 24px;
+    }
+}

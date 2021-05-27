@@ -1,0 +1,23 @@
+.popup__role {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    position: absolute;
+    top: 168px;
+    left: 36px;
+    border: none;
+    border-bottom: 1px solid #545454;
+    width: 358px;
+    height: 27px;
+}
+
+@media screen and (max-width: 767px) {
+    .popup__role {
+        width: 238px;
+        left: 22px;
+        top: 176px;
+    }
+}

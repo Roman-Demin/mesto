@@ -1,0 +1,7 @@
+.element__name-card {
+    display: flex;
+    max-width: 241px;
+    max-height: 26px;
+    margin: 22px 15px 27px 21px;
+    justify-content: space-between;
+}
