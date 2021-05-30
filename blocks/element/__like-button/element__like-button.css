@@ -5,4 +5,10 @@
     width: 22px;
     height: 19px;
     margin-top: 3px;
+    background-color: white;
+}
+
+.element__like-button:hover {
+    opacity: .5;
+    transition: opacity 1s ease-out;
 }
