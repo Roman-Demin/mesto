@@ -3,13 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-left: -215px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 879px) {
-    .profile__blok {
-        margin-left: 0;
-    }
+    margin-left: 30px;
 }
 
 @media screen and (max-width: 767px) {

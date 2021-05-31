@@ -29,42 +29,42 @@
             <div class="element">
                 <img class="element__image" src="images/Карачаевск.jpg" alt="Карачаево-Черкесск">
                 <div class="element__name-card">
-                    <p class="element__heading">Карачаевск</p>
+                    <h2 class="element__heading">Карачаевск</h2>
                     <button type="button" class="element__like-button" aria-label="Лайк"></button>
                 </div>
             </div>
             <div class="element">
                 <img class="element__image" src="images/Эльбрус.png" alt="Гора Эльбрус">
                 <div class="element__name-card">
-                    <p class="element__heading">Гора Эльбрус</p>
+                    <h2 class="element__heading">Гора Эльбрус</h2>
                     <button type="button" class="element__like-button" aria-label="Лайк"></button>
                 </div>
             </div>
             <div class="element">
                 <img class="element__image" src="images/Домбай.png" alt="Гора Домбай">
                 <div class="element__name-card">
-                    <p class="element__heading">Домбай</p>
+                    <h2 class="element__heading">Домбай</h2>
                     <button type="button" class="element__like-button" aria-label="Лайк"></button>
                 </div>
             </div>
             <div class="element">
                 <img class="element__image" src="images/Эльбрус.png" alt="Гора Эльбрус">
                 <div class="element__name-card">
-                    <p class="element__heading">Гора Эльбрус</p>
+                    <h2 class="element__heading">Гора Эльбрус</h2>
                     <button type="button" class="element__like-button" aria-label="Лайк"></button>
                 </div>
             </div>
             <div class="element">
                 <img class="element__image" src="images/Домбай.png" alt="Гора Домбай">
                 <div class="element__name-card">
-                    <p class="element__heading">Домбай</p>
+                    <h2 class="element__heading">Домбай</h2>
                     <button type="button" class="element__like-button" aria-label="Лайк"></button>
                 </div>
             </div>
             <div class="element">
                 <img class="element__image" src="images/Карачаевск.jpg" alt="Карачаево-Черкесск">
                 <div class="element__name-card">
-                    <p class="element__heading">Карачаево-Черкесск</p>
+                    <h2 class="element__heading">Карачаево-Черкесск</h2>
                     <button type="button" class="element__like-button" aria-label="Лайк"></button>
                 </div>
             </div>
@@ -74,17 +74,19 @@
         <p class="footer__text">© 2020 Mesto Russia</p>
     </footer>
 
-    <section class="popup" id="popup">
+    <div class="popup" id="popup">
         <div class="popup__container">
             <button type="button" class="popup__close" aria-label="Закрыть попап "></button>
             <form action="#" name="form1" class="form">
                 <h2 class="form__title ">Редактировать профиль</h2>
-                <input type="text" name="formInfo" placeholder="Жак-Ив Кусто" class="form__info" id="popup-name">
-                <input type="text" name="formInfo" placeholder="Исследователь океана" class="form__info" id="popup-role">
+                <div class="form__input">
+                    <input type="text" name="formName" placeholder="Имя" class="form__info" id="popup-name">
+                    <input type="text" name="formStatus" placeholder="Профессия" class="form__info" id="popup-role">
+                </div>
                 <button type="submit" class="form__save" aria-label="Сохранить">Сохранить</button>
             </form>
         </div>
-    </section>
+    </div>
     <script src="scripts/index.js"></script>
 </body>
 

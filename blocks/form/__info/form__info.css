@@ -7,26 +7,14 @@
     position: absolute;
     left: 36px;
     border: none;
-    border-bottom: 1px solid #545454;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.7);
     width: 358px;
     height: 27px;
     top: 110px;
 }
 
-.form__info:nth-child(3) {
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #000000;
-    position: absolute;
+.form__info:last-child {
     top: 168px;
-    left: 36px;
-    border: none;
-    border-bottom: 1px solid #545454;
-    width: 358px;
-    height: 27px;
 }
 
 @media screen and (max-width: 767px) {
@@ -35,9 +23,7 @@
         left: 22px;
         top: 120px;
     }
-    .form__info:nth-child(3) {
-        width: 238px;
-        left: 22px;
+    .form__info:last-child {
         top: 176px;
     }
 }

@@ -1,7 +1,6 @@
 let openButton = document.querySelector('.profile__edit-button');
 let popup = document.querySelector('.popup');
 let closeButton = document.querySelector('.popup__close');
-let savePopup = document.querySelector('form__save');
 
 let editProfile = document.querySelector(".profile__edit-button");
 let profileName = document.querySelector('.profile__name');
@@ -15,7 +14,7 @@ let popupStatus = document.querySelector('#popup-role');
 
 
 function handlePopupEditOpen() {
-    openPopup(popupEdit)
+    openPopup()
     popupName.value = profileName.textContent;
     popupStatus.value = profileStatus.textContent;
 }
@@ -24,7 +23,7 @@ function handlePopupEditSubmit(evt) {
     evt.preventDefault()
     profileName.textContent = popupName.value;
     profileStatus.textContent = popupStatus.value;
-    closePopup(popupEdit)
+    closePopup()
 }
 
 function openPopup() {
