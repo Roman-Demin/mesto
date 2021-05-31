@@ -1,12 +1,18 @@
-let openButton = document.querySelector('profile__edit-button');
-let popup = document.querySelector('popup');
-let closePopup = document.querySelector('popup__close');
+let openButton = document.querySelector('.profile__edit-button');
+let popup = document.querySelector('.popup');
+let closeButton = document.querySelector('.popup__close');
 let savePopup = document.querySelector('form__save');
 
+let editProfile = document.querySelector(".profile__edit-button");
 let profileName = document.querySelector('.profile__name');
-let popupName = document.querySelector('popup__name');
-let profileStatus = document.querySelector('profile__role');
-let popupStatus = document.querySelector('popup__role');
+let profileStatus = document.querySelector('.profile__role');
+let popupEdit = document.querySelector("#popup");
+let formEditProfile = popupEdit.querySelector(".form");
+
+let popupName = document.querySelector('#popup-name');
+let popupStatus = document.querySelector('#popup-role');
+
+
 
 function handlePopupEditOpen() {
     openPopup(popupEdit)
