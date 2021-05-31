@@ -1,0 +1,43 @@
+.form__info {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    position: absolute;
+    left: 36px;
+    border: none;
+    border-bottom: 1px solid #545454;
+    width: 358px;
+    height: 27px;
+    top: 110px;
+}
+
+.form__info:nth-child(3) {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    position: absolute;
+    top: 168px;
+    left: 36px;
+    border: none;
+    border-bottom: 1px solid #545454;
+    width: 358px;
+    height: 27px;
+}
+
+@media screen and (max-width: 767px) {
+    .form__info {
+        width: 238px;
+        left: 22px;
+        top: 120px;
+    }
+    .form__info:nth-child(3) {
+        width: 238px;
+        left: 22px;
+        top: 176px;
+    }
+}

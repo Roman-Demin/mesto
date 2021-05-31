@@ -16,13 +16,13 @@
     border: none;
 }
 
-.popup__save:hover {
+.form__save:hover {
     opacity: .8;
     transition: opacity 1s ease-out;
 }
 
 @media screen and (max-width: 767px) {
-    .popup__save {
+    .form__save {
         width: 238px;
         height: 46px;
         top: 251px;
