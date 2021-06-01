@@ -4,26 +4,23 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    position: absolute;
-    left: 36px;
+    margin-top: 25px;
+    margin-left: 36px;
     border: none;
     border-bottom: 1px solid rgba(54, 54, 54, 0.7);
     width: 358px;
     height: 27px;
-    top: 110px;
 }
 
-.form__info:last-child {
-    top: 168px;
-}
+.form__info:last-child {}
 
 @media screen and (max-width: 767px) {
     .form__info {
         width: 238px;
-        left: 22px;
-        top: 120px;
+        margin-top: 56px;
+        margin-left: 22px;
     }
     .form__info:last-child {
-        top: 176px;
+        margin-top: 27px;
     }
 }
