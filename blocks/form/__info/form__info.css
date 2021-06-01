@@ -12,8 +12,6 @@
     height: 27px;
 }
 
-.form__info:last-child {}
-
 @media screen and (max-width: 767px) {
     .form__info {
         width: 238px;
